@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/gen"/>
+	<classpathentry kind="src" path="src/main/man"/>
+	<classpathentry kind="src" path="src/test/gen"/>
+	<classpathentry kind="src" path="src/test/man"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="/org.nabucco.adapter.lucene/lib/impl/jboss-javaee.jar"/>
+	<classpathentry kind="lib" path="/org.nabucco.adapter.lucene/lib/impl/lucene-core.jar" sourcepath="D:/Downloads/Temp/Sources/lucene-3.0.3-src.zip"/>
+	<classpathentry kind="lib" path="/org.nabucco.adapter.lucene/lib/impl/org.nabucco.common.cache.jar"/>
+	<classpathentry kind="lib" path="/org.nabucco.adapter.lucene/lib/impl/org.nabucco.common.extension.jar"/>
+	<classpathentry kind="lib" path="/org.nabucco.adapter.lucene/lib/impl/org.nabucco.framework.base.facade.jar"/>
+	<classpathentry kind="lib" path="/org.nabucco.adapter.lucene/lib/impl/org.nabucco.framework.base.impl.jar" sourcepath="/org.nabucco.adapter.lucene/lib/source/org.nabucco.framework.base.impl.sources.zip"/>
+	<classpathentry kind="output" path="out/ide"/>
+</classpath>

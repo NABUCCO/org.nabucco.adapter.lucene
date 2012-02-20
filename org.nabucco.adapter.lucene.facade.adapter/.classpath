@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/gen"/>
+	<classpathentry kind="src" path="src/main/man"/>
+	<classpathentry kind="src" path="src/test/gen"/>
+	<classpathentry kind="src" path="src/test/man"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="/org.nabucco.adapter.lucene/lib/facade/log4j.jar"/>
+	<classpathentry kind="lib" path="/org.nabucco.adapter.lucene/lib/facade/org.nabucco.common.cache.jar"/>
+	<classpathentry kind="lib" path="/org.nabucco.adapter.lucene/lib/facade/org.nabucco.common.extension.jar"/>
+	<classpathentry kind="lib" path="/org.nabucco.adapter.lucene/lib/facade/org.nabucco.framework.base.facade.jar" sourcepath="/org.nabucco.adapter.lucene/lib/source/org.nabucco.framework.base.facade.sources.zip"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/org.nabucco.adapter.lucene.facade.datatype"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/org.nabucco.adapter.lucene.facade.exception"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/org.nabucco.adapter.lucene.facade.message"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/org.nabucco.adapter.lucene.facade.service"/>
+	<classpathentry kind="output" path="out/ide"/>
+</classpath>
