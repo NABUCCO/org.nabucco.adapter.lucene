@@ -100,7 +100,7 @@ public class LuceneIndexServiceImpl implements LuceneIndexService {
             if (deleted != null && deleted.getValue() != null && deleted.getValue()) {
                 return;
             }
-            
+
             Document luceneDocument = new Document();
 
             this.addGeoLocation(location, luceneDocument);
@@ -206,7 +206,12 @@ public class LuceneIndexServiceImpl implements LuceneIndexService {
         for (FulltextField field : document.getFieldList()) {
 
             if (field.getFieldName().getValue().equals(keyField)) {
-                Term term = new Term(keyField, field.getFieldValue().getValue());
+                Term term;
+                if (field.getFieldValue() == null) {
+                    term = new Term(keyField, "");
+                } else {
+                    term = new Term(keyField, field.getFieldValue().getValue());
+                }
                 writer.deleteDocuments(term);
 
                 if (logger.isDebugEnabled()) {
